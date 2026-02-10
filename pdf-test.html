@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Generator Test</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.2/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.3/jspdf.plugin.autotable.min.js"></script>
+</head>
+<body>
+    <h1>PDF Generator Test</h1>
+    <button onclick="testPDF()">Download Test PDF</button>
+
+    <script>
+        function testPDF() {
+            const { jsPDF } = window.jspdf;
+            const doc = new jsPDF();
+
+            // Add header
+            doc.setFillColor(37, 99, 235);
+            doc.rect(0, 0, 210, 40, 'F');
+            doc.setTextColor(255, 255, 255);
+            doc.setFontSize(20);
+            doc.text('VRK Wealth', 20, 15);
+
+            // Add content
+            doc.setTextColor(0, 0, 0);
+            doc.setFontSize(16);
+            doc.text('Test PDF Report', 20, 60);
+
+            // Add table
+            doc.autoTable({
+                head: [['Year', 'Investment', 'Returns', 'Total']],
+                body: [
+                    ['Year 1', '₹60,000', '₹7,200', '₹67,200'],
+                    ['Year 2', '₹1,20,000', '₹21,840', '₹1,41,840'],
+                ],
+                startY: 70,
+                theme: 'striped',
+            });
+
+            doc.save('test_report.pdf');
+            alert('PDF downloaded successfully!');
+        }
+    </script>
+</body>
+</html>
