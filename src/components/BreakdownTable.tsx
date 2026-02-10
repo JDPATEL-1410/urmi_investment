@@ -1,5 +1,5 @@
+import React from 'react';
 import { motion } from 'framer-motion';
-import { formatCurrency } from '../utils/calculatorUtils';
 
 interface BreakdownTableProps {
     headers: string[];
@@ -46,8 +46,8 @@ const BreakdownTable: React.FC<BreakdownTableProps> = ({ headers, rows, maxHeigh
                                     <td
                                         key={cellIndex}
                                         className={`px-4 py-3 text-sm ${cellIndex === 0
-                                                ? 'font-semibold text-primary'
-                                                : 'text-neutral-700'
+                                            ? 'font-semibold text-primary'
+                                            : 'text-neutral-700'
                                             }`}
                                     >
                                         {typeof cell === 'number' && cellIndex > 0

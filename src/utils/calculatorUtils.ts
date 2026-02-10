@@ -34,7 +34,6 @@ export const calculateSIPWithBreakdown = (
 
     for (let year = 1; year <= years; year++) {
         const monthsInYear = 12;
-        let yearStartValue = currentValue;
 
         for (let month = 1; month <= monthsInYear; month++) {
             totalInvested += monthlyInvestment;
