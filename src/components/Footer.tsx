@@ -134,7 +134,7 @@ const Footer = () => {
                                 Urmi Financial Services Pvt Ltd is an AMFI Registered Mutual Fund Distributor
                             </p>
                             <p className="text-xs">
-                                © {new Date().getFullYear()} Urmi Financial Services Pvt Ltd. All rights reserved. | Designed by AinaTech Services LLP
+                                © {new Date().getFullYear()} Urmi Financial Services Pvt Ltd. All rights reserved. | Designed by <a href="https://ainatech.in/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors font-semibold">AinaTech Services LLP</a>
                             </p>
                         </div>
                         <div className="flex flex-wrap justify-center gap-4 text-xs">
