@@ -142,6 +142,10 @@ const Footer = () => {
                                 Privacy Policy
                             </Link>
                             <span className="text-neutral-600">|</span>
+                            <a href="/AMFI_Code-of-Conduct (1).pdf" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors">
+                                Code of Conduct
+                            </a>
+                            <span className="text-neutral-600">|</span>
                             <Link to="/terms-conditions" className="hover:text-accent-green transition-colors">
                                 Terms & Conditions
                             </Link>
