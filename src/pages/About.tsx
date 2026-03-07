@@ -4,11 +4,11 @@ import PageHeader from '../components/PageHeader';
 import aboutImage from '../assets/about-image.png';
 import whoWeAreImage from '../assets/images/who-we-are-about.png';
 import founderImage from '../assets/dinesh-bhalawala.png';
-import mihirImage from '../assets/team/mihir-kayasth.jpg';
-import hemantImage from '../assets/team/hemant-solanki.png';
-import dalalImage from '../assets/team/dalal-alfaran.png';
-import nimeshImage from '../assets/team/nimesh-jariwala.png';
-import jigneshImage from '../assets/team/jignesh-patel.png';
+import member1 from '../assets/team/member1.png';
+import member2 from '../assets/team/member2.png';
+import member3 from '../assets/team/member3.png';
+import member4 from '../assets/team/member4.png';
+import member5 from '../assets/team/member5.png';
 
 const About = () => {
     return (
@@ -317,29 +317,29 @@ const About = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
                         {[
                             {
-                                name: 'Mihir Kayasth',
-                                designation: 'Relationship Executive',
-                                image: mihirImage
+                                name: 'Team Member 1',
+                                designation: 'Relationship Manager',
+                                image: member1
                             },
                             {
-                                name: 'Hemant Solanki',
-                                designation: 'Relationship Executive',
-                                image: hemantImage
+                                name: 'Team Member 2',
+                                designation: 'Relationship Manager',
+                                image: member2
                             },
                             {
-                                name: 'Dalal Alfaran',
-                                designation: 'Relationship Executive',
-                                image: dalalImage
+                                name: 'Team Member 3',
+                                designation: 'Relationship Manager',
+                                image: member3
                             },
                             {
-                                name: 'Nimesh Jariwala',
-                                designation: 'Business Development Manager',
-                                image: nimeshImage
+                                name: 'Team Member 4',
+                                designation: 'Relationship Manager',
+                                image: member4
                             },
                             {
-                                name: 'Jignesh Patel',
-                                designation: 'Relationship Executive',
-                                image: jigneshImage
+                                name: 'Team Member 5',
+                                designation: 'Relationship Manager',
+                                image: member5
                             }
                         ].map((member, index) => (
                             <motion.div
