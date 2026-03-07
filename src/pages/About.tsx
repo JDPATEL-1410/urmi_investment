@@ -317,27 +317,27 @@ const About = () => {
                     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8">
                         {[
                             {
-                                name: 'Team Member 1',
+                                name: 'Vaishali jadav',
                                 designation: 'Relationship Manager',
                                 image: member1
                             },
                             {
-                                name: 'Team Member 2',
+                                name: 'Mihir kayasth',
                                 designation: 'Relationship Manager',
                                 image: member2
                             },
                             {
-                                name: 'Team Member 3',
+                                name: 'Hemant solanki',
                                 designation: 'Relationship Manager',
                                 image: member3
                             },
                             {
-                                name: 'Team Member 4',
+                                name: 'Dalal Alfaran',
                                 designation: 'Relationship Manager',
                                 image: member4
                             },
                             {
-                                name: 'Team Member 5',
+                                name: 'Nimesh Jariwala',
                                 designation: 'Relationship Manager',
                                 image: member5
                             }
