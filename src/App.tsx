@@ -1,6 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import { useEffect } from 'react';
-import TopInfoBar from './components/TopInfoBar';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
@@ -53,10 +52,9 @@ function App() {
             <ScrollToTopOnMount />
             <div className="flex flex-col min-h-screen">
                 <header className="fixed top-0 left-0 right-0 z-50 transition-all duration-300">
-                    <TopInfoBar />
                     <Navbar />
                 </header>
-                <main className="flex-grow pt-32 md:pt-40">
+                <main className="flex-grow pt-24 md:pt-32">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
