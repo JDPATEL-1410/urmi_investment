@@ -66,6 +66,58 @@ const Home = () => {
                 </div>
             </section>
 
+            {/* Sukh-Shanti Section */}
+            <section className="py-20 bg-gradient-to-br from-primary/5 via-white to-accent-green/5 overflow-hidden">
+                <div className="section-container">
+                    <div className="flex flex-col lg:flex-row items-center gap-12">
+                        <motion.div 
+                            initial={{ opacity: 0, x: -50 }}
+                            whileInView={{ opacity: 1, x: 0 }}
+                            viewport={{ once: true }}
+                            className="lg:w-1/2"
+                        >
+                            <h2 className="text-4xl md:text-5xl font-bold text-neutral-900 mb-6 leading-tight">
+                                Achieve True <span className="text-primary italic">Sukh-Shanti</span> Through Smart Planning
+                            </h2>
+                            <p className="text-lg text-neutral-600 mb-8 leading-relaxed">
+                                At Urmi Financial Services, we believe that real "Sukh-Shanti" (Peace & Prosperity) comes from knowing your future is secure. Our holistic approach to wealth management ensures that every aspect of your financial life is balanced, protected, and poised for growth.
+                            </p>
+                            <div className="space-y-4">
+                                {[
+                                    { title: 'Sukh (Prosperity)', desc: 'Building wealth through disciplined, research-backed mutual fund investments.' },
+                                    { title: 'Shanti (Peace)', desc: 'Protecting your family\'s future with comprehensive insurance and risk coverage.' }
+                                ].map((item, i) => (
+                                    <div key={i} className="flex items-start space-x-4 bg-white p-4 rounded-xl shadow-soft border border-neutral-100">
+                                        <div className="w-10 h-10 rounded-full bg-accent-green/20 flex items-center justify-center text-accent-green flex-shrink-0">
+                                            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
+                                            </svg>
+                                        </div>
+                                        <div>
+                                            <h4 className="font-bold text-neutral-900">{item.title}</h4>
+                                            <p className="text-sm text-neutral-600">{item.desc}</p>
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        </motion.div>
+                        <motion.div 
+                            initial={{ opacity: 0, scale: 0.8 }}
+                            whileInView={{ opacity: 1, scale: 1 }}
+                            viewport={{ once: true }}
+                            className="lg:w-1/2 relative"
+                        >
+                            <div className="aspect-square bg-gradient-to-tr from-primary to-accent-green rounded-3xl rotate-3 absolute inset-0 opacity-10"></div>
+                            <img 
+                                src="https://images.unsplash.com/photo-1516733968668-dbdce39c46ef?auto=format&fit=crop&q=80&w=800" 
+                                alt="Financial Peace" 
+                                className="rounded-3xl shadow-2xl relative z-10"
+                            />
+                        </motion.div>
+                    </div>
+                </div>
+            </section>
+
             {/* Why Choose Us */}
             <section className="py-16 md:py-24 bg-white">
                 <div className="section-container">
@@ -160,21 +212,21 @@ const Home = () => {
                                 title: 'SIP Calculator',
                                 desc: 'Calculate the wealth you can create through regular monthly investments.',
                                 icon: '📈',
-                                link: '/tools/calculators/sip',
+                                link: '/tools/sip-calculator',
                                 trend: '+12% Avg. Return'
                             },
                             {
                                 title: 'Goal Planner',
                                 desc: 'Map out your dreams and find exactly how much you need to save.',
                                 icon: '🎯',
-                                link: '/tools/calculators/goal',
+                                link: '/tools/goal-calculator',
                                 trend: 'Plan Smart'
                             },
                             {
                                 title: 'Retirement Tool',
                                 desc: 'Ensure your golden years are financially secure and independent.',
                                 icon: '⛱️',
-                                link: '/tools/calculators/retirement',
+                                link: '/tools/retirement-calculator',
                                 trend: 'Secure Future'
                             },
                             {

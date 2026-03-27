@@ -47,10 +47,13 @@ const Navbar = () => {
                 }`}
         >
             <div className="section-container">
-                <div className="flex items-center justify-between h-30">
+                <div className="flex items-center justify-between h-24 md:h-32">
                     {/* Logo - Responsive Size */}
-                    <Link to="/" className="flex items-center space-x-3 z-50">
-                        <img src={logo} alt="Urmi Financial Services" className="h-12 w-auto md:h-16 lg:h-20" />
+                    <Link to="/" className="flex flex-col items-start z-50">
+                        <img src={logo} alt="Urmi Financial Services" className="h-10 w-auto md:h-14 lg:h-16" />
+                        <span className="text-[10px] md:text-[12px] font-semibold text-primary/80 -mt-1 uppercase tracking-tight">
+                            AMFI Registered Mutual Fund Distributor
+                        </span>
                     </Link>
 
                     {/* Desktop Navigation */}
@@ -114,12 +117,20 @@ const Navbar = () => {
                             </div>
                         ))}
 
-                        <Link
-                            to="/login"
-                            className="btn-secondary text-sm py-2.5 px-5"
-                        >
-                            Portfolio Login
-                        </Link>
+                        <div className="flex items-center space-x-3">
+                            <Link
+                                to="/login"
+                                className="text-sm font-semibold text-neutral-700 hover:text-primary transition-colors px-3"
+                            >
+                                Login
+                            </Link>
+                            <Link
+                                to="/signup"
+                                className="btn-secondary text-sm py-2 px-6"
+                            >
+                                Signup
+                            </Link>
+                        </div>
                     </div>
 
                     {/* Mobile Menu Button */}
@@ -161,7 +172,12 @@ const Navbar = () => {
                         >
                             {/* Drawer Header */}
                             <div className="p-6 border-b border-neutral-200 flex items-center justify-between">
-                                <img src={logo} alt="Urmi Financial Services" className="h-14 w-auto" />
+                            <div className="flex flex-col items-start">
+                                <img src={logo} alt="Urmi Financial Services" className="h-10 w-auto" />
+                                <span className="text-[10px] font-semibold text-primary/70 uppercase">
+                                    AMFI Registered Mutual Fund Distributor
+                                </span>
+                            </div>
                                 <button
                                     onClick={() => setIsMobileMenuOpen(false)}
                                     className="p-2 hover:bg-neutral-100 rounded-lg transition-colors"
@@ -234,12 +250,20 @@ const Navbar = () => {
                                         )}
                                     </div>
                                 ))}
-                                <Link
-                                    to="/login"
-                                    className="block w-full text-center btn-secondary mt-4"
-                                >
-                                    Portfolio Login
-                                </Link>
+                                <div className="grid grid-cols-2 gap-4 mt-6">
+                                    <Link
+                                        to="/login"
+                                        className="btn-outline text-center py-3"
+                                    >
+                                        Login
+                                    </Link>
+                                    <Link
+                                        to="/signup"
+                                        className="btn-secondary text-center py-3"
+                                    >
+                                        Signup
+                                    </Link>
+                                </div>
                             </div>
                         </motion.div>
                     </>

@@ -3,19 +3,7 @@ import footerLogo from '../assets/footerlogo.png';
 import { services } from '../data/services';
 
 const Footer = () => {
-    const quickLinks = [
-        { name: 'Home', path: '/' },
-        { name: 'About Us', path: '/about' },
-        { name: 'Services', path: '/services' },
-        { name: 'Tools', path: '/tools/calculators' },
-        { name: 'Blog', path: '/blog' },
-        { name: 'Contact Us', path: '/contact' }
-    ];
 
-    const serviceLinks = services.slice(0, 8).map(s => ({
-        name: s.title,
-        path: `/services/${s.id}`
-    }));
 
     return (
         <footer className="bg-gradient-to-br from-primary-dark via-primary to-primary-dark text-white">
@@ -52,27 +40,38 @@ const Footer = () => {
                         </div>
                     </div>
 
-                    {/* Column 2: Quick Links */}
+                    {/* Column 2: Services */}
                     <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Quick Links</h3>
+                        <h3 className="text-white font-semibold text-lg mb-4">Services</h3>
                         <ul className="space-y-2.5">
-                            {quickLinks.map((link) => (
-                                <li key={link.path}>
-                                    <Link to={link.path} className="text-sm hover:text-accent-green transition-colors">
-                                        {link.name}
-                                    </Link>
+                            {[
+                                'Mutual Funds', 'AIF / PMS', 'Model Portfolio', 
+                                'Equity (BSE, NSE)', 'Demat', 'Insurance', 
+                                'Fixed Bond', 'Will Making'
+                            ].map((name) => (
+                                <li key={name}>
+                                    <span className="text-sm text-neutral-300 hover:text-accent-green transition-colors cursor-pointer">
+                                        {name}
+                                    </span>
                                 </li>
                             ))}
                         </ul>
                     </div>
 
-                    {/* Column 3: Services */}
+                    {/* Column 3: Tools & Links */}
                     <div>
-                        <h3 className="text-white font-semibold text-lg mb-4">Our Services</h3>
+                        <h3 className="text-white font-semibold text-lg mb-4">Tools & Links</h3>
                         <ul className="space-y-2.5">
-                            {serviceLinks.map((link) => (
-                                <li key={link.path}>
-                                    <Link to={link.path} className="text-sm hover:text-accent-green transition-colors">
+                            {[
+                                { name: 'Financial Calculators', path: '/tools/calculators' },
+                                { name: 'Fund Performance', path: '/tools/fund-performance' },
+                                { name: 'Health Checkup', path: '/tools/health-checkup' },
+                                { name: 'Risk Profile', path: '/tools/risk-profile' },
+                                { name: 'Pay Premium Online', path: '#' },
+                                { name: 'Useful Links', path: '/tools/useful-links' }
+                            ].map((link) => (
+                                <li key={link.name}>
+                                    <Link to={link.path} className="text-sm text-neutral-300 hover:text-accent-green transition-colors">
                                         {link.name}
                                     </Link>
                                 </li>
@@ -128,39 +127,52 @@ const Footer = () => {
             {/* Bottom Footer */}
             <div className="border-t border-neutral-800">
                 <div className="section-container py-6">
-                    <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-                        <div className="text-sm text-center md:text-left">
-                            <p className="font-semibold text-white mb-1">
-                                Urmi Financial Services Pvt Ltd is an AMFI Registered Mutual Fund Distributor
+                    <div className="flex flex-col md:flex-row justify-between items-start space-y-8 md:space-y-0">
+                        <div className="text-sm text-center md:text-left max-w-2xl">
+                            <p className="font-bold text-white mb-2 text-base">
+                                AMFI Registered Mutual Fund Distributor | ARN - 312394
                             </p>
-                            <p className="text-xs">
-                                © {new Date().getFullYear()} Urmi Financial Services Pvt Ltd. All rights reserved. | Designed by <a href="https://ainatech.in/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors font-semibold">AinaTech Services LLP</a>
+                            <p className="text-neutral-400 leading-relaxed mb-4">
+                                Urmi Financial Services Pvt Ltd is an AMFI Registered Mutual Fund Distributor. We offer specialized services in Mutual Funds, AIF / PMS, Model Portfolio, Equity (BSE, NSE), Demat, Insurance, Fixed Bond, and Will Making.
                             </p>
+                            <div className="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 text-[10px] uppercase tracking-wider font-bold text-neutral-500 mb-6">
+                                <Link to="/risk-factors" className="hover:text-accent-green transition-colors">Risk Factors</Link>
+                                <span>|</span>
+                                <Link to="/terms-conditions" className="hover:text-accent-green transition-colors">Terms & Conditions</Link>
+                                <span>|</span>
+                                <a href="#" className="hover:text-accent-green transition-colors">SID/SAI/KIM</a>
+                                <span>|</span>
+                                <a href="#" className="hover:text-accent-green transition-colors">Code of Conduct</a>
+                                <span>|</span>
+                                <Link to="/investor-grievance" className="hover:text-accent-green transition-colors">Investor Grievance Redressal</Link>
+                                <span>|</span>
+                                <Link to="/useful-links" className="hover:text-accent-green transition-colors">Important Links</Link>
+                                <span>|</span>
+                                <a href="#" className="hover:text-accent-green transition-colors">SEBI Circulars</a>
+                                <span>|</span>
+                                <Link to="/privacy-policy" className="hover:text-accent-green transition-colors">Privacy Policy</Link>
+                                <span>|</span>
+                                <Link to="/commission-disclosures" className="hover:text-accent-green transition-colors">Commission Disclosures</Link>
+                            </div>
                         </div>
-                        <div className="flex flex-wrap justify-center gap-4 text-xs">
-                            <Link to="/privacy-policy" className="hover:text-accent-green transition-colors">
-                                Privacy Policy
-                            </Link>
-                            <span className="text-neutral-600">|</span>
-                            <a href="/AMFI_Code-of-Conduct (1).pdf" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors">
-                                Code of Conduct
-                            </a>
-                            <span className="text-neutral-600">|</span>
-                            <Link to="/terms-conditions" className="hover:text-accent-green transition-colors">
-                                Terms & Conditions
-                            </Link>
-                            <span className="text-neutral-600">|</span>
-                            <Link to="/commission-disclosures" className="hover:text-accent-green transition-colors">
-                                Commission Disclosures
-                            </Link>
+                        <div className="flex flex-col items-center md:items-end text-xs text-neutral-400">
+                             <p className="text-center md:text-right">
+                                © {new Date().getFullYear()} Urmi Financial Services Pvt Ltd. All rights reserved.
+                            </p>
+                            <p className="mt-1">
+                                Designed by <a href="https://ainatech.in/" target="_blank" rel="noopener noreferrer" className="hover:text-accent-green transition-colors font-semibold">AinaTech Services LLP</a>
+                            </p>
                         </div>
                     </div>
-                    <div className="mt-4 pt-4 border-t border-neutral-800 text-xs text-neutral-400 text-center">
-                        <p className="mb-2">
-                            <strong className="text-neutral-300">Disclaimer:</strong> Mutual fund investments are subject to market risks. Please read all scheme related documents carefully before investing. Past performance is not indicative of future returns. Please consider your specific investment requirements before choosing a fund, or designing a portfolio that suits your needs.
-                        </p>
+                    <div className="mt-8 pt-8 border-t border-neutral-800 text-[11px] text-neutral-400 text-center md:text-left space-y-4">
                         <p>
                             All existing and prospective investors are advised to check and evaluate the Exit loads and other cost structures (TER) applicable at the time of making the investment before finalizing any investment decision for Mutual Funds schemes. We deal in Regular Plans only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure of commission earnings is made to clients at the time of investments.
+                        </p>
+                        <p>
+                            <strong className="text-neutral-300">Disclaimer:</strong> Mutual fund investments are subject to market risks. Please read the scheme information and other related documents carefully before investing. Past performance is not indicative of future returns. Please consider your specific investment requirements before choosing a fund, or designing a portfolio that suits your needs.
+                        </p>
+                        <p>
+                            Urmi Financial Services Pvt Ltd makes no warranties or representations, express or implied, on products offered through the platform of Urmi Financial Services Pvt Ltd. It accepts no liability for any damages or losses, however, caused, in connection with the use of, or on the reliance of its product or related services. Terms and conditions of the website are applicable. Investments in Securities markets are subject to market risks, read all the related documents carefully before investing.
                         </p>
                     </div>
                 </div>

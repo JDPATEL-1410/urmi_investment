@@ -14,6 +14,9 @@ const TopInfoBar = () => {
                 <div className="flex items-center justify-between">
                     {/* Market Ticker */}
                     <div className="hidden md:flex items-center space-x-6 overflow-x-auto">
+                        <div className="flex items-center space-x-2 whitespace-nowrap border-r border-white/20 pr-6 mr-6">
+                            <span className="font-bold text-accent-green">AMFI Registered ARN - 312394</span>
+                        </div>
                         {marketData.map((item, index) => (
                             <motion.div
                                 key={item.name}

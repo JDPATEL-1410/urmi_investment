@@ -12,6 +12,8 @@ import ServiceDetail from './pages/ServiceDetail';
 import Contact from './pages/Contact';
 import Blog from './pages/Blog';
 import BlogSection from './components/BlogSection';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 
 import Calculators from './pages/Calculators';
 import SIPCalculator from './pages/SIPCalculator';
@@ -52,7 +54,7 @@ function App() {
             <div className="flex flex-col min-h-screen">
                 <TopInfoBar />
                 <Navbar />
-                <main className="flex-grow pt-20">
+                <main className="flex-grow pt-36 md:pt-44">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/about" element={<About />} />
@@ -90,7 +92,8 @@ function App() {
                         <Route path="/terms-conditions" element={<TermsConditions />} />
                         <Route path="/commission-disclosures" element={<CommissionDisclosures />} />
 
-                        <Route path="/login" element={<Contact />} />
+                        <Route path="/login" element={<Login />} />
+                        <Route path="/signup" element={<Signup />} />
                         <Route path="*" element={<Home />} />
                     </Routes>
                 </main>
