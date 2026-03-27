@@ -18,7 +18,7 @@ const TermsConditions = () => {
             content: [
                 {
                     subtitle: "Financial Advisory Services",
-                    text: "We provide financial planning, investment advisory, and wealth management services. Our services include but are not limited to mutual fund distribution, insurance advisory, portfolio management guidance, and financial goal planning."
+                    text: "We provide Financial Guidance, investment advisory, and wealth management services. Our services include but are not limited to mutual fund distribution, insurance advisory, portfolio management guidance, and financial goal Guidance."
                 },
                 {
                     subtitle: "Distribution Services",

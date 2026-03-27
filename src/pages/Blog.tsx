@@ -26,7 +26,7 @@ const Blog = () => {
             return 'Investing';
         }
         if (text.includes('tax') || text.includes('deduction') || text.includes('80c')) {
-            return 'Tax Planning';
+            return 'Tax Guidance';
         }
         if (text.includes('wealth') || text.includes('portfolio')) {
             return 'Wealth Management';
@@ -41,7 +41,7 @@ const Blog = () => {
     const getCategoryThumbnail = (category: string) => {
         const thumbnails: { [key: string]: string } = {
             'Investing': 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=500&fit=crop&q=80',
-            'Tax Planning': 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&q=80',
+            'Tax Guidance': 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&q=80',
             'Wealth Management': 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop&q=80',
             'Insurance': 'https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&h=500&fit=crop&q=80',
             'Personal Finance': 'https://images.unsplash.com/photo-1633158829585-23ba8f7c8caf?w=800&h=500&fit=crop&q=80'
@@ -73,7 +73,7 @@ const Blog = () => {
             title: "Maximize Your Tax Savings This Year",
             excerpt: "Learn the best tax-saving strategies and investment options under Section 80C.",
             image: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&h=500&fit=crop&q=80",
-            category: "Tax Planning",
+            category: "Tax Guidance",
             date: "2025-12-07",
             source: "Tax Advisor",
             url: "#"
@@ -81,7 +81,7 @@ const Blog = () => {
         {
             id: '3',
             title: "Building Long-Term Wealth with SIPs",
-            excerpt: "How systematic investment plans can help you achieve your financial goals.",
+            excerpt: "How systematic investment Strategys can help you achieve your financial goals.",
             image: "https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=800&h=500&fit=crop&q=80",
             category: "Wealth Management",
             date: "2025-12-06",
@@ -155,7 +155,7 @@ const Blog = () => {
         <div className="min-h-screen">
             <PageHeader
                 title="Financial Insights & Tips"
-                subtitle="Stay informed with our latest articles on financial planning, investments, and wealth management"
+                subtitle="Stay informed with our latest articles on Financial Guidance, investments, and wealth management"
                 image={blogHeader}
                 badge="Expert Advice"
             />

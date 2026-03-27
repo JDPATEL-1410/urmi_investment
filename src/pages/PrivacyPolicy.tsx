@@ -30,7 +30,7 @@ const PrivacyPolicy = () => {
                 },
                 {
                     subtitle: "Personalization",
-                    text: "We analyze your information to understand your financial needs and provide personalized investment recommendations and financial planning advice."
+                    text: "We analyze your information to understand your financial needs and provide personalized investment recommendations and Financial Guidance advice."
                 },
                 {
                     subtitle: "Compliance & Legal",

@@ -35,7 +35,7 @@ const FinancialHealthCheckup = () => {
         },
         {
             id: 'retirement',
-            question: 'Have you started planning for retirement?',
+            question: 'Have you started Guidance for retirement?',
             options: ['Yes', 'Thinking about it', 'No']
         }
     ];
@@ -126,7 +126,7 @@ const FinancialHealthCheckup = () => {
                                             </li>}
                                             {score < 40 && <li className="flex items-start gap-2">
                                                 <span className="text-primary mt-1">•</span>
-                                                <span>Start a systematic investment plan (SIP) for long-term wealth creation</span>
+                                                <span>Start a systematic investment Strategy (SIP) for long-term wealth creation</span>
                                             </li>}
                                             <li className="flex items-start gap-2">
                                                 <span className="text-primary mt-1">•</span>

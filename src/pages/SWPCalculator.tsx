@@ -37,7 +37,7 @@ const SWPCalculator = () => {
 
     return (
         <div className="min-h-screen bg-neutral-50">
-            <PageHeader title="SWP Calculator" subtitle="Systematic Withdrawal Plan" image={toolsHeader} badge="Income Tool" />
+            <PageHeader title="SWP Calculator" subtitle="Systematic Withdrawal Strategy" image={toolsHeader} badge="Income Tool" />
             <div className="section-container py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 bg-white rounded-3xl shadow-xl p-8">
                     <div className="space-y-6">

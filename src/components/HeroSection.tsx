@@ -32,7 +32,7 @@ const HeroSection = () => {
                                 <span className="relative z-10 text-primary">Sukh-Shanti</span>
                                 <span className="absolute bottom-2 left-0 w-full h-3 bg-accent-green/20 -rotate-1"></span>
                             </span>{' '}
-                            Through Smart Planning
+                            Through Smart Guidance
                         </h1>
 
                         <p className="text-lg lg:text-xl text-neutral-600 leading-relaxed max-w-xl">
@@ -93,7 +93,7 @@ const HeroSection = () => {
                             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl">
                                 <img
                                     src={heroImage}
-                                    alt="Financial Planning with Urmi Financial Services"
+                                    alt="Financial Guidance with Urmi Financial Services"
                                     className="w-full h-auto object-cover"
                                 />
                             </div>

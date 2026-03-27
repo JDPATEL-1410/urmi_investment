@@ -216,7 +216,7 @@ const RiskProfile = () => {
                                         Retake Assessment
                                     </button>
                                     <button className="btn-primary flex-1">
-                                        Get Personalized Plan
+                                        Get Personalized Strategy
                                     </button>
                                 </div>
                             </div>

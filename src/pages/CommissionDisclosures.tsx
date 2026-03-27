@@ -8,7 +8,7 @@ const CommissionDisclosures = () => {
             category: "Equity Mutual Funds",
             products: [
                 {
-                    type: "Regular Plans",
+                    type: "Regular Strategys",
                     upfront: "Up to 1.00% of investment amount",
                     trail: "Up to 1.00% per annum of AUM",
                     notes: "Commission varies by AMC and scheme"
@@ -19,7 +19,7 @@ const CommissionDisclosures = () => {
             category: "Debt Mutual Funds",
             products: [
                 {
-                    type: "Regular Plans",
+                    type: "Regular Strategys",
                     upfront: "Up to 0.75% of investment amount",
                     trail: "Up to 0.75% per annum of AUM",
                     notes: "Lower commission for liquid and ultra-short duration funds"
@@ -30,7 +30,7 @@ const CommissionDisclosures = () => {
             category: "Hybrid Mutual Funds",
             products: [
                 {
-                    type: "Regular Plans",
+                    type: "Regular Strategys",
                     upfront: "Up to 0.85% of investment amount",
                     trail: "Up to 0.85% per annum of AUM",
                     notes: "Commission based on equity-debt allocation"
@@ -41,7 +41,7 @@ const CommissionDisclosures = () => {
             category: "ELSS (Tax Saving Funds)",
             products: [
                 {
-                    type: "Regular Plans",
+                    type: "Regular Strategys",
                     upfront: "Up to 1.00% of investment amount",
                     trail: "Up to 0.50% per annum of AUM",
                     notes: "Subject to 3-year lock-in period"
@@ -58,7 +58,7 @@ const CommissionDisclosures = () => {
                     notes: "Commission structure varies by insurer"
                 },
                 {
-                    type: "ULIP (Unit Linked Insurance Plans)",
+                    type: "ULIP (Unit Linked Insurance Strategys)",
                     upfront: "Up to 20% of first year premium",
                     trail: "Up to 7.5% of renewal premiums",
                     notes: "Subject to IRDAI regulations"
@@ -73,7 +73,7 @@ const CommissionDisclosures = () => {
                     type: "Health Insurance",
                     upfront: "Up to 15% of premium",
                     trail: "Up to 10% of renewal premiums",
-                    notes: "Commission on individual and family floater plans"
+                    notes: "Commission on individual and family floater Strategys"
                 }
             ]
         },
@@ -119,8 +119,8 @@ const CommissionDisclosures = () => {
             description: "The commissions we receive are paid by the product manufacturers (AMCs, insurance companies, etc.) and are already factored into the product pricing. You do not pay any additional fees for our distribution services."
         },
         {
-            title: "Direct vs Regular Plans",
-            description: "Mutual funds offer both Direct and Regular plans. Direct plans have lower expense ratios as they don't include distributor commissions. Regular plans, which we distribute, have slightly higher expense ratios that include our commission. We can help you choose between Direct and Regular plans based on the value of our advisory services."
+            title: "Direct vs Regular Strategys",
+            description: "Mutual funds offer both Direct and Regular Strategys. Direct Strategys have lower expense ratios as they don't include distributor commissions. Regular Strategys, which we distribute, have slightly higher expense ratios that include our commission. We can help you choose between Direct and Regular Strategys based on the value of our advisory services."
         },
         {
             title: "Trail Commission",
@@ -150,8 +150,8 @@ const CommissionDisclosures = () => {
             description: "We offer products from multiple AMCs and insurance providers, giving you a wide range of options. We do not have exclusive arrangements that would limit your choices."
         },
         {
-            title: "Regular vs Direct Plans",
-            description: "We disclose that Regular plans pay us commissions while Direct plans do not. We will help you understand the cost-benefit analysis of both options and let you make an informed decision."
+            title: "Regular vs Direct Strategys",
+            description: "We disclose that Regular Strategys pay us commissions while Direct Strategys do not. We will help you understand the cost-benefit analysis of both options and let you make an informed decision."
         },
         {
             title: "Switching Recommendations",
@@ -378,7 +378,7 @@ const CommissionDisclosures = () => {
                                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
                                     </svg>
                                     <p className="text-neutral-700">
-                                        <strong>Right to Choose:</strong> You can choose between Regular plans (with our commission) and Direct plans (without commission) after understanding the value proposition.
+                                        <strong>Right to Choose:</strong> You can choose between Regular Strategys (with our commission) and Direct Strategys (without commission) after understanding the value proposition.
                                     </p>
                                 </div>
                                 <div className="flex items-start space-x-3">

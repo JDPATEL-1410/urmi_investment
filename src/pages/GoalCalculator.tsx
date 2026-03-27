@@ -148,8 +148,8 @@ const GoalCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Goal Planning Report',
-            subtitle: selectedGoal ? `${selectedGoal} Goal` : 'Financial Goal Planning',
+            title: 'Goal Guidance Report',
+            subtitle: selectedGoal ? `${selectedGoal} Goal` : 'Financial Goal Guidance',
             calculatorType: 'Goal',
             inputs: [
                 { label: 'Goal Amount', value: formatCurrency(goalAmount) },
@@ -186,10 +186,10 @@ const GoalCalculator = () => {
     return (
         <div className="min-h-screen bg-neutral-50">
             <PageHeader
-                title="Goal Planning Calculator"
-                subtitle="Achieve your financial dreams with systematic planning"
+                title="Goal Guidance Calculator"
+                subtitle="Achieve your financial dreams with systematic Guidance"
                 image={toolsHeader}
-                badge="Planning Tool"
+                badge="Guidance Tool"
             />
 
             <div className="section-container py-16">

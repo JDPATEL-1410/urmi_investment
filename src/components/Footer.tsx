@@ -165,7 +165,7 @@ const Footer = () => {
                     </div>
                     <div className="mt-8 pt-8 border-t border-neutral-800 text-[11px] text-neutral-400 text-center md:text-left space-y-4">
                         <p>
-                            All existing and prospective investors are advised to check and evaluate the Exit loads and other cost structures (TER) applicable at the time of making the investment before finalizing any investment decision for Mutual Funds schemes. We deal in Regular Plans only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure of commission earnings is made to clients at the time of investments.
+                            All existing and prospective investors are advised to check and evaluate the Exit loads and other cost structures (TER) applicable at the time of making the investment before finalizing any investment decision for Mutual Funds schemes. We deal in Regular Strategys only for Mutual Fund Schemes and earn a Trailing Commission on client investments. Disclosure of commission earnings is made to clients at the time of investments.
                         </p>
                         <p>
                             <strong className="text-neutral-300">Disclaimer:</strong> Mutual fund investments are subject to market risks. Please read the scheme information and other related documents carefully before investing. Past performance is not indicative of future returns. Please consider your specific investment requirements before choosing a fund, or designing a portfolio that suits your needs.

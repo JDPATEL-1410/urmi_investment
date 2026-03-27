@@ -11,7 +11,7 @@ export const tools: Tool[] = [
     {
         id: 'financial-calculators',
         title: 'Financial Calculators',
-        description: 'Explore our comprehensive suite of financial calculators to plan your future.',
+        description: 'Explore our comprehensive suite of financial calculators to Strategy your future.',
         icon: '🧮',
         link: '/tools/calculators',
         external: false
@@ -74,7 +74,7 @@ export const testimonials: Testimonial[] = [
     {
         id: 3,
         name: 'Priya Sharma',
-        content: 'The team at Urmi Financial Services is professional and knowledgeable. They helped me plan my retirement effectively.',
+        content: 'The team at Urmi Financial Services is professional and knowledgeable. They helped me Strategy my retirement effectively.',
         rating: 5
     },
     {
@@ -98,18 +98,18 @@ export interface BlogPost {
 export const blogPosts: BlogPost[] = [
     {
         id: '1',
-        title: '5 Tips for Financial Planning for Women',
+        title: '5 Tips for Financial Guidance for Women',
         excerpt: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities...',
-        content: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities. However, when it comes to financial planning, many women still lag behind. Here are 5 essential tips for women to take control of their financial future: 1. Start early to leverage compounding. 2. Build an emergency fund. 3. Invest in yourself through skills and education. 4. Understand your risk appetite. 5. Plan for retirement specifically as women tend to live longer.',
+        content: 'Women are known to be multi-taskers. Women are better at switching between tasks and managing multiple responsibilities. However, when it comes to financial Guidance, many women still lag behind. Here are 5 essential tips for women to take control of their financial future: 1. Start early to leverage compounding. 2. Build an emergency fund. 3. Invest in yourself through skills and education. 4. Understand your risk appetite. 5. Strategy for retirement specifically as women tend to live longer.',
         date: '2024-11-15',
-        category: 'Financial Planning',
+        category: 'Financial Guidance',
         image: 'https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?q=80&w=1000&auto=format&fit=crop'
     },
     {
         id: '2',
         title: 'Top 3 Benefits of SIP in Mutual Funds',
-        excerpt: 'Using a structured investment plan like SIP to invest in mutual funds has become increasingly popular among investors...',
-        content: 'Using a structured investment plan like SIP to invest in mutual funds has become increasingly popular among investors. SIP offers discipline, rupee cost averaging, and the power of compounding. By investing a fixed amount regularly, you buy more units when markets are low and fewer when they are high, averaging out your cost of acquisition over time.',
+        excerpt: 'Using a structured investment Strategy like SIP to invest in mutual funds has become increasingly popular among investors...',
+        content: 'Using a structured investment Strategy like SIP to invest in mutual funds has become increasingly popular among investors. SIP offers discipline, rupee cost averaging, and the power of compounding. By investing a fixed amount regularly, you buy more units when markets are low and fewer when they are high, averaging out your cost of acquisition over time.',
         date: '2024-11-10',
         category: 'Mutual Funds',
         image: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?q=80&w=1000&auto=format&fit=crop'

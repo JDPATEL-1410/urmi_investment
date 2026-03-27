@@ -9,7 +9,7 @@ const Calculators = () => {
         {
             id: 'sip',
             title: 'SIP Calculator',
-            description: 'Calculate returns on your Systematic Investment Plan',
+            description: 'Calculate returns on your Systematic Investment Strategy',
             icon: '📊',
             link: '/tools/sip-calculator',
             category: 'Investment'
@@ -17,14 +17,14 @@ const Calculators = () => {
         {
             id: 'retirement',
             title: 'Retirement Calculator',
-            description: 'Plan your retirement corpus and monthly savings',
+            description: 'Strategy your retirement corpus and monthly savings',
             icon: '🏖️',
             link: '/tools/retirement-calculator',
             category: 'Goal Based'
         },
         {
             id: 'goal',
-            title: 'Goal Planning Calculator',
+            title: 'Goal Guidance Calculator',
             description: 'Calculate savings needed for your financial goals',
             icon: '🎯',
             link: '/tools/goal-calculator',
@@ -73,23 +73,23 @@ const Calculators = () => {
         {
             id: 'swp',
             title: 'SWP Calculator',
-            description: 'Calculate Systematic Withdrawal Plan',
+            description: 'Calculate Systematic Withdrawal Strategy',
             icon: '💸',
             link: '/tools/swp-calculator',
             category: 'Investment'
         },
         {
             id: 'education',
-            title: 'Education Planning Calculator',
-            description: 'Plan for your child\'s education expenses',
+            title: 'Education Guidance Calculator',
+            description: 'Strategy for your child\'s education expenses',
             icon: '🎓',
             link: '/tools/education-calculator',
             category: 'Goal Based'
         },
         {
             id: 'marriage',
-            title: 'Marriage Planning Calculator',
-            description: 'Plan for wedding and marriage expenses',
+            title: 'Marriage Guidance Calculator',
+            description: 'Strategy for wedding and marriage expenses',
             icon: '💍',
             link: '/tools/marriage-calculator',
             category: 'Goal Based'
@@ -115,7 +115,7 @@ const Calculators = () => {
         <div className="min-h-screen bg-white">
             <PageHeader
                 title="Financial Calculators"
-                subtitle="Plan your financial future with our comprehensive suite of calculators"
+                subtitle="secure your financial future with our comprehensive suite of calculators"
                 image={toolsHeader}
                 badge="Free Tools"
             />
@@ -186,7 +186,7 @@ const Calculators = () => {
                             Need Expert Guidance?
                         </h3>
                         <p className="text-lg text-neutral-100 mb-6 max-w-2xl mx-auto">
-                            Our financial advisors can help you create a personalized plan based on your goals
+                            Our financial advisors can help you create a personalized Strategy based on your goals
                         </p>
                         <Link to="/contact" className="btn-accent inline-block">
                             Schedule Free Consultation

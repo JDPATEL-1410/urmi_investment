@@ -111,7 +111,7 @@ const About = () => {
 
                                 <div className="space-y-4 text-neutral-600 leading-relaxed">
                                     <p>
-                                        Mr. Dinesh Bhalawala is a Financial and Estate Planner who pursued his Masters in Commerce, following which he did a certificate course in Information Technology, as well as a course to become a Certified Financial Planner.
+                                        Mr. Dinesh Bhalawala is a Financial and Estate Tool who pursued his Masters in Commerce, following which he did a certificate course in Information Technology, as well as a course to become a Certified Financial Tool.
                                     </p>
                                     <p>
                                         Since then, he has registered IFA with the Association of Mutual Funds in India and with the Insurance Regulation and Development Authority (IRDA).
@@ -164,7 +164,7 @@ const About = () => {
                             </div>
                             <h3 className="text-2xl font-bold text-neutral-900 mb-4">Our Mission</h3>
                             <p className="text-neutral-600 leading-relaxed">
-                                Our mission is to be the bridge to financial success for every Indian. We aim to provide guidance, support, and reliable financial services, ensuring individuals across the nation can achieve their financial goals. We strive to make financial planning accessible, understandable, and effective for everyone.
+                                Our mission is to be the bridge to financial success for every Indian. We aim to provide guidance, support, and reliable financial services, ensuring individuals across the nation can achieve their financial goals. We strive to make Financial Guidance accessible, understandable, and effective for everyone.
                             </p>
                         </motion.div>
 
@@ -200,7 +200,7 @@ const About = () => {
                         className="text-center mb-12"
                     >
                         <h2 className="text-3xl md:text-4xl font-bold text-neutral-900 mb-4">
-                            Our Approach to Financial Planning
+                            Our Approach to Financial Guidance
                         </h2>
                         <p className="text-lg text-neutral-600 max-w-3xl mx-auto">
                             We follow a systematic, client-centric approach to help you achieve your financial goals
@@ -222,17 +222,17 @@ const About = () => {
                             {
                                 step: '03',
                                 title: 'Customized Strategy',
-                                description: 'Based on our analysis, we create a personalized financial plan tailored to your specific needs, goals, and risk tolerance.'
+                                description: 'Based on our analysis, we create a personalized financial Strategy tailored to your specific needs, goals, and risk tolerance.'
                             },
                             {
                                 step: '04',
                                 title: 'Implementation & Execution',
-                                description: 'We help you implement the strategy with the right financial products and services, ensuring seamless execution of your financial plan.'
+                                description: 'We help you implement the strategy with the right financial products and services, ensuring seamless execution of your financial Strategy.'
                             },
                             {
                                 step: '05',
                                 title: 'Ongoing Support & Review',
-                                description: 'Financial planning is a dynamic process. We provide continuous support, regular reviews, and adjustments to keep you on track towards your goals.'
+                                description: 'Financial Guidance is a dynamic process. We provide continuous support, regular reviews, and adjustments to keep you on track towards your goals.'
                             }
                         ].map((item, index) => (
                             <motion.div
@@ -387,7 +387,7 @@ const About = () => {
                             Ready to Begin Your Financial Journey?
                         </h2>
                         <p className="text-lg text-neutral-600 mb-8">
-                            Let's work together to create a financial plan that brings your dreams to life
+                            Let's work together to create a financial Strategy that brings your dreams to life
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="btn-primary">

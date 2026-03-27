@@ -37,7 +37,7 @@ const UsefulLinks = () => {
             ]
         },
         {
-            title: 'Financial Planning Tools',
+            title: 'Financial Guidance Tools',
             links: [
                 { name: 'CAMS - Computer Age Management Services', url: 'https://www.camsonline.com/', desc: 'MF transaction services' },
                 { name: 'KFintech', url: 'https://www.kfintech.com/', desc: 'MF transaction services' },

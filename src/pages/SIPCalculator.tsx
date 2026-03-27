@@ -102,7 +102,7 @@ const SIPCalculator = () => {
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
             title: 'SIP Calculator Report',
-            subtitle: 'Systematic Investment Plan Analysis',
+            subtitle: 'Systematic Investment Success Analysis',
             calculatorType: 'SIP',
             inputs: [
                 { label: 'Monthly Investment', value: formatCurrency(monthlyInvestment) },
@@ -152,7 +152,7 @@ const SIPCalculator = () => {
                             SIP Calculator
                         </h1>
                         <p className="text-xl text-neutral-100">
-                            Calculate your Systematic Investment Plan returns and plan your financial future
+                            Calculate your Systematic Investment Strategy returns and secure your financial future
                         </p>
                     </motion.div>
                 </div>
@@ -180,7 +180,7 @@ const SIPCalculator = () => {
                                         <div className="group relative">
                                             <FaInfoCircle className="text-neutral-400 cursor-help" />
                                             <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-3 bg-neutral-900 text-white text-xs rounded-lg shadow-lg z-10">
-                                                Amount you plan to invest every month through SIP
+                                                amount you intend to invest every month through SIP
                                             </div>
                                         </div>
                                     </label>
@@ -238,7 +238,7 @@ const SIPCalculator = () => {
                                         <div className="group relative">
                                             <FaInfoCircle className="text-neutral-400 cursor-help" />
                                             <div className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2 hidden group-hover:block w-64 p-3 bg-neutral-900 text-white text-xs rounded-lg shadow-lg z-10">
-                                                Duration for which you plan to stay invested. Longer duration helps in wealth creation
+                                                Duration for which you Strategy to stay invested. Longer duration helps in wealth creation
                                             </div>
                                         </div>
                                     </label>

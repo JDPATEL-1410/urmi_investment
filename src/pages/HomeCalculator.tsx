@@ -41,7 +41,7 @@ const HomeCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Home Buying Plan Report',
+            title: 'Home Buying Strategy Report',
             subtitle: 'Save for Your Dream Home',
             calculatorType: 'Home',
             inputs: [
@@ -65,7 +65,7 @@ const HomeCalculator = () => {
 
     return (
         <div className="min-h-screen bg-neutral-50">
-            <PageHeader title="Home Buying Planner" subtitle="Save for your dream home down payment" image={toolsHeader} badge="Planning Tool" />
+            <PageHeader title="Home Buying Tool" subtitle="Save for your dream home down payment" image={toolsHeader} badge="Guidance Tool" />
             <div className="section-container py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6 card">
@@ -132,7 +132,7 @@ const HomeCalculator = () => {
 
                     <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6">
                         <div className="card bg-gradient-to-br from-primary to-primary-dark text-white">
-                            <h3 className="text-lg font-medium mb-6 opacity-90">Investment Plan</h3>
+                            <h3 className="text-lg font-medium mb-6 opacity-90">Investment Strategy</h3>
                             <div className="space-y-4">
                                 <div className="p-4 bg-white/10 rounded-xl">
                                     <p className="text-sm opacity-90 mb-1">Down Payment Needed</p>
@@ -175,7 +175,7 @@ const HomeCalculator = () => {
 
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> Home prices vary by location and market conditions. This calculator helps you plan for the down payment. Consider additional costs like registration, stamp duty, and furnishing.
+                        <strong>Disclaimer:</strong> Home prices vary by location and market conditions. This calculator helps you Strategy for the down payment. Consider additional costs like registration, stamp duty, and furnishing.
                     </p>
                 </motion.div>
             </div>

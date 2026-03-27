@@ -137,7 +137,7 @@ const Home = () => {
                                 Investor's <span className="text-accent-green">Corner</span>
                             </h2>
                             <p className="text-lg text-neutral-300">
-                                Empower your financial journey with our suite of expert-grade calculators and precision planning tools.
+                                Empower your financial journey with our suite of expert-grade calculators and precision Guidance tools.
                             </p>
                         </motion.div>
 
@@ -165,11 +165,11 @@ const Home = () => {
                                 trend: '+12% Avg. Return'
                             },
                             {
-                                title: 'Goal Planner',
+                                title: 'Goal Tool',
                                 desc: 'Map out your dreams and find exactly how much you need to save.',
                                 icon: '🎯',
                                 link: '/tools/goal-calculator',
-                                trend: 'Plan Smart'
+                                trend: 'Secure Smart'
                             },
                             {
                                 title: 'Retirement Tool',

@@ -21,7 +21,7 @@ export const services: Service[] = [
             'Diversification across multiple securities',
             'Liquidity and easy redemption',
             'Tax benefits under Section 80C',
-            'Systematic Investment Plans (SIP) for disciplined investing'
+            'Systematic Investment Strategys (SIP) for disciplined investing'
         ],
         whoShouldConsider: [
             'Investors looking for long-term wealth creation',
@@ -36,7 +36,7 @@ export const services: Service[] = [
             },
             {
                 question: 'What is SIP?',
-                answer: 'SIP (Systematic Investment Plan) allows you to invest a fixed amount regularly in mutual funds, helping you build wealth through disciplined investing and rupee cost averaging.'
+                answer: 'SIP (Systematic Investment Strategy) allows you to invest a fixed amount regularly in mutual funds, helping you build wealth through disciplined investing and rupee cost averaging.'
             },
             {
                 question: 'Are mutual funds safe?',
@@ -209,7 +209,7 @@ export const services: Service[] = [
         benefits: [
             'Financial protection for family',
             'Tax benefits under Section 80C and 10(10D)',
-            'Wealth creation through investment plans',
+            'Wealth creation through investment Strategys',
             'Loan facility against policy',
             'Peace of mind'
         ],
@@ -217,12 +217,12 @@ export const services: Service[] = [
             'Primary earning members of family',
             'Parents with dependents',
             'Those seeking tax benefits',
-            'Individuals planning for retirement'
+            'Individuals Guidance for retirement'
         ],
         faqs: [
             {
                 question: 'What types of life insurance are available?',
-                answer: 'Main types include Term Insurance, Endowment Plans, ULIPs, Whole Life Insurance, and Money Back Policies, each serving different needs.'
+                answer: 'Main types include Term Insurance, Endowment Strategys, ULIPs, Whole Life Insurance, and Money Back Policies, each serving different needs.'
             },
             {
                 question: 'How much coverage do I need?',
@@ -330,7 +330,7 @@ export const services: Service[] = [
         whoShouldConsider: [
             'Salaried individuals',
             'Self-employed professionals',
-            'Those seeking retirement planning',
+            'Those seeking retirement Guidance',
             'Tax-saving investors'
         ],
         faqs: [

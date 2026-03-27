@@ -170,7 +170,7 @@ const EMICalculator = () => {
         <div className="min-h-screen bg-neutral-50">
             <PageHeader
                 title="EMI Calculator"
-                subtitle="Calculate your monthly EMI and plan your loans effectively"
+                subtitle="Calculate your monthly EMI and Strategy your loans effectively"
                 image={toolsHeader}
                 badge="Loan Tool"
             />

@@ -39,8 +39,8 @@ const MarriageCalculator = () => {
 
     const handleDownloadPDF = () => {
         generateCalculatorPDF({
-            title: 'Marriage Planning Report',
-            subtitle: 'Plan for the Big Day',
+            title: 'Marriage Guidance Report',
+            subtitle: 'Strategy for the Big Day',
             calculatorType: 'Marriage',
             inputs: [
                 { label: 'Current Wedding Cost', value: formatCurrency(currentCost) },
@@ -63,7 +63,7 @@ const MarriageCalculator = () => {
 
     return (
         <div className="min-h-screen bg-neutral-50">
-            <PageHeader title="Marriage Planning" subtitle="Plan for the big day with confidence" image={toolsHeader} badge="Planning Tool" />
+            <PageHeader title="Marriage Guidance" subtitle="Strategy for the big day with confidence" image={toolsHeader} badge="Guidance Tool" />
             <div className="section-container py-16">
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
                     <motion.div initial={{ opacity: 0, x: -30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6 card">
@@ -117,7 +117,7 @@ const MarriageCalculator = () => {
 
                     <motion.div initial={{ opacity: 0, x: 30 }} animate={{ opacity: 1, x: 0 }} className="space-y-6">
                         <div className="card bg-gradient-to-br from-primary to-primary-dark text-white">
-                            <h3 className="text-lg font-medium mb-6 opacity-90">Investment Plan</h3>
+                            <h3 className="text-lg font-medium mb-6 opacity-90">Investment Strategy</h3>
                             <div className="space-y-4">
                                 <div className="p-4 bg-white/10 rounded-xl">
                                     <p className="text-sm opacity-90 mb-1">Future Wedding Cost</p>
@@ -159,7 +159,7 @@ const MarriageCalculator = () => {
 
                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.5 }} className="mt-12 p-6 bg-yellow-50 border border-yellow-200 rounded-xl">
                     <p className="text-sm text-neutral-700">
-                        <strong>Disclaimer:</strong> Wedding costs vary widely based on preferences and location. This calculator provides estimates to help you plan better.
+                        <strong>Disclaimer:</strong> Wedding costs vary widely based on preferences and location. This calculator provides estimates to help you Strategy better.
                     </p>
                 </motion.div>
             </div>
