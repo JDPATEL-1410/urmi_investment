@@ -1,6 +1,5 @@
 import { Link } from 'react-router-dom';
 import footerLogo from '../assets/footerlogo.png';
-import { services } from '../data/services';
 
 const Footer = () => {
 
