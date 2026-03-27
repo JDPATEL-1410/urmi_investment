@@ -120,7 +120,7 @@ const Navbar = () => {
                         <div className="flex items-center space-x-3">
                             <Link
                                 to="/login"
-                                className="text-sm font-semibold text-neutral-700 hover:text-primary transition-colors px-3"
+                                className="btn-outline text-sm py-2 px-6"
                             >
                                 Login
                             </Link>
