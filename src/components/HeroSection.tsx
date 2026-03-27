@@ -27,16 +27,16 @@ const HeroSection = () => {
                         </motion.div>
 
                         <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-neutral-900 leading-tight">
-                            Build Your{' '}
+                            Achieve True{' '}
                             <span className="relative inline-block">
-                                <span className="relative z-10 text-primary">Financial Future</span>
+                                <span className="relative z-10 text-primary">Sukh-Shanti</span>
                                 <span className="absolute bottom-2 left-0 w-full h-3 bg-accent-green/20 -rotate-1"></span>
                             </span>{' '}
-                            with Confidence
+                            Through Smart Planning
                         </h1>
 
                         <p className="text-lg lg:text-xl text-neutral-600 leading-relaxed max-w-xl">
-                            Expert financial guidance for Mutual Funds, Insurance, Wealth Management, and more. Your dreams, our commitment.
+                            At Urmi Financial Services, we ensure your future is secure, balanced, and protected, allowing you to experience true peace of mind and prosperity.
                         </p>
 
                         <div className="flex flex-col sm:flex-row gap-4 pt-2">
