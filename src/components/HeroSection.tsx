@@ -6,7 +6,7 @@ const HeroSection = () => {
     return (
         <section className="relative bg-white overflow-hidden">
             <div className="section-container">
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-5rem)] py-12 lg:py-20">
+                <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center min-h-[calc(100vh-5rem)] pb-12 lg:pb-20 pt-4 lg:pt-8">
                     {/* Left Content */}
                     <motion.div
                         initial={{ opacity: 0, y: 30 }}

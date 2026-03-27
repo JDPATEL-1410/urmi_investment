@@ -11,7 +11,7 @@ const PageHeader = ({ title, subtitle, image, badge }: PageHeaderProps) => {
     return (
         <section className="relative bg-gradient-to-br from-primary/5 to-accent-green/5 overflow-hidden">
             <div className="section-container">
-                <div className={`grid grid-cols-1 ${image ? 'lg:grid-cols-2' : ''} gap-8 lg:gap-12 items-center py-12 lg:py-16`}>
+                <div className={`grid grid-cols-1 ${image ? 'lg:grid-cols-2' : ''} gap-8 lg:gap-12 items-center pb-12 lg:pb-16 pt-4 lg:pt-8`}>
                     {/* Left Content */}
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
